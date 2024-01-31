@@ -42,19 +42,19 @@ function Skills() {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="skillOne" />
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="skillTwo" />
                   <h5>Brand Identify</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="skillThree" />
                   <h5>Logo Design</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="skillFour" />
                   <h5>React Developer</h5>
                 </div>
               </Carousel>
@@ -62,8 +62,16 @@ function Skills() {
           </Col>
         </Row>
       </Container>
-      <img src={colorSharp} className="background-image-left" alt="image" />
-      <img src={colorSharp2} className="background-image-right" alt="image" />
+      <img
+        src={colorSharp}
+        className="background-image-left"
+        alt="backgroundLeft"
+      />
+      <img
+        src={colorSharp2}
+        className="background-image-right"
+        alt="backgroundRight"
+      />
     </section>
   );
 }

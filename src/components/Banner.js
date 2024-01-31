@@ -19,7 +19,7 @@ function Banner() {
 
     return () => {
       clearInterval(ticker);
-    };
+    }; // eslint-disable-next-line
   }, [text]);
 
   const tick = () => {
@@ -66,7 +66,7 @@ function Banner() {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Image" />
+            <img src={headerImg} alt="Header" />
           </Col>
         </Row>
       </Container>
