@@ -302,11 +302,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   );
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 50px;
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  /* font-size: 65px; */
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -420,7 +420,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 95%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -531,7 +531,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 120px 0;
 }
 .contact img {
   width: 92%;
@@ -548,7 +548,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   color: #fff;
-  margin: 0 0 8px 0;
+  margin: 20px 0 8px 0;
   padding: 18px 26px;
   font-weight: 500;
   font-size: 18px;
@@ -606,7 +606,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 50px 0px;
   background-image: url("./assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;
